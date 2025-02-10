@@ -1,0 +1,102 @@
+@media (width <= 1440px) {
+  .header {
+    padding: 32px 180px;
+  }
+
+  .hero {
+    padding-left: 180px;
+    padding-right: 100px;
+  }
+
+  .bicicletas-lista h2 {
+    padding-left: 110px;
+  }
+
+  .tecnologia {
+    padding-left: 180px;
+  }
+}
+
+@media (width <= 1300px) {
+  .header {
+    padding: 32px 120px;
+  }
+
+  .hero {
+    padding-left: 120px;
+    padding-right: 40px;
+  }
+
+  .bicicletas-lista {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .bicicletas-lista h2 {
+    padding-left: 70px;
+  }
+
+  .tecnologia {
+    padding-left: 120px;
+  }
+}
+
+@media (width <= 930px) {
+  .header {
+    padding: 32px 40px;
+  }
+
+  .hero {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .bicicletas-lista {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .bicicletas-lista h2 {
+    padding-left: 10px;
+  }
+
+  .tecnologia {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .parceiros {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (width <= 500px) {
+  .header {
+    padding: 32px 20px;
+  }
+
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bicicletas-lista {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .bicicletas-lista h2 {
+    padding-left: 10px;
+  }
+
+  .tecnologia {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .parceiros {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
