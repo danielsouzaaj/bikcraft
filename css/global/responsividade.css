@@ -15,6 +15,15 @@
   .tecnologia {
     padding-left: 180px;
   }
+
+  .seguros {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  .footer {
+    padding-left: 180px;
+  }
 }
 
 @media (width <= 1300px) {
@@ -37,6 +46,15 @@
   }
 
   .tecnologia {
+    padding-left: 120px;
+  }
+
+  .seguros {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .footer {
     padding-left: 120px;
   }
 }
@@ -69,6 +87,15 @@
     padding-left: 60px;
     padding-right: 60px;
   }
+
+  .seguros {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .footer {
+    padding-left: 40px;
+  }
 }
 
 @media (width <= 500px) {
@@ -96,6 +123,16 @@
   }
 
   .parceiros {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .seguros {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer {
     padding-left: 20px;
     padding-right: 20px;
   }
