@@ -9,10 +9,20 @@
   background: linear-gradient(#ffbf00, #f2a50c);
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-width: max-content;
 }
 
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao.secundario {
+  background: var(--c-10);
+  color: var(--c-2);
+}
+
+.botao.secundario:hover {
+  background: var(--c-9);
 }
 
 @media (width <= 600px) {
