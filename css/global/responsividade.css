@@ -24,6 +24,16 @@
   .footer {
     padding-left: 180px;
   }
+
+  .termos {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  .titulo {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
 }
 
 @media (width <= 1300px) {
@@ -56,6 +66,16 @@
 
   .footer {
     padding-left: 120px;
+  }
+
+  .termos {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .titulo {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
@@ -96,6 +116,16 @@
   .footer {
     padding-left: 40px;
   }
+
+  .termos {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .titulo {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 @media (width <= 500px) {
@@ -133,6 +163,16 @@
   }
 
   .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .termos {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .titulo {
     padding-left: 20px;
     padding-right: 20px;
   }
