@@ -7,6 +7,10 @@
   margin-bottom: 40px;
 }
 
+#bicicleta .bicicletas-lista h2 {
+  padding-left: 0;
+}
+
 .bicicletas-lista-item {
   display: flex;
   align-items: center;
