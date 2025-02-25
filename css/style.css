@@ -19,5 +19,6 @@
 @import "./utilidades/formulario.css";
 @import "./contato/contato.css";
 @import "./contato/lojas.css";
+@import "./orcamento/orcamento.css";
 
 @import "./global/responsividade.css";
