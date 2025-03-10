@@ -40,3 +40,20 @@ function perguntaEventos(pergunta) {
 }
 
 perguntas.forEach(perguntaEventos);
+
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+const galeriaContainer = document.querySelector(".bicicleta-imagens");
+
+function trocarImagem(event) {
+  const imagem = event.target;
+  const media = matchMedia("(width > 1000px)").matches;
+  if (media) {
+    galeriaContainer.prepend(imagem);
+  }
+}
+
+function galeriaEventos(imagem) {
+  imagem.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(galeriaEventos);
