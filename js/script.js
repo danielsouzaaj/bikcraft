@@ -21,3 +21,22 @@ function ativarProduto(parametro) {
 }
 
 parametros.forEach(ativarProduto);
+
+const perguntas = document.querySelectorAll(".perguntas button");
+
+function exibirPergunta(event) {
+  const pergunta = event.target;
+  const controls = pergunta.getAttribute("aria-controls");
+  const reposta = document.getElementById(controls);
+
+  reposta.classList.toggle("ativa");
+
+  const ativa = reposta.classList.contains("ativa");
+  reposta.setAttribute("aria-expanded", ativa);
+}
+
+function perguntaEventos(pergunta) {
+  pergunta.addEventListener("click", exibirPergunta);
+}
+
+perguntas.forEach(perguntaEventos);
